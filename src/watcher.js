@@ -4,7 +4,6 @@ import path from 'node:path';
 /**
  * Creates a FileWatcher instance that monitors a directory for log files.
  * Uses fs.watch as primary mechanism with fs.watchFile polling fallback.
- * @returns {import('.kiro/specs/log-intrusion-detection/design.md').FileWatcher}
  */
 export function createFileWatcher() {
   /** @type {Map<string, number>} file path -> byte offset */
