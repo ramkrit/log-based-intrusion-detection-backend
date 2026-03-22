@@ -1,0 +1,21 @@
+{
+  "name": "log-intrusion-detection",
+  "version": "1.0.0",
+  "description": "Log-based intrusion detection backend service",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "fast-check": "^4.6.0",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.0"
+  }
+}
